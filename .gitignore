@@ -1,0 +1,4 @@
+.vscode
+*.xlsx
+*old.py
+env_vars.py

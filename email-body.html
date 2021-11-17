@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    <head>
+        <style>
+            body{
+                font-weight: normal;
+            }
+            h2{
+                font-family: Verdana;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            p{
+                line-height: 15px;
+                font-family: Verdana;
+                font-size: 14px;
+            }
+            table {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 12px;
+                text-align: center;
+            }
+            th {
+                background-color: #FF80FF;
+                color: white;
+            }
+            td, th {
+                font-family: Verdana;
+                padding: 8px;
+                border: 1px solid gray;
+            }
+        </style>
+    </head>
+    <html>
+        <body>
+            <h2>Dear Team,</h2>
+            <p>
+                Please find below the weekly online sales summary report for the period {FromDate} - {ToDate}.<br>
+            </p>
+            <table>
+                <tr>
+                    <th style="text-align: left;">Shop Name</th>
+                    <th>Orders Performed</th>
+                    <th>Online Sales</th>
+                    <th>Less Bank Variable</th>
+                    <th>Add: Adjustments</th>
+                    <th>Add: InstaPoints</th>
+                    <th>Less: Commission</th>
+                    <th>Final Amount Payable</th>
+                </tr>
+                <tr style="font-weight: bold; background-color: #FFFFCC">
+                    <td colspan="2"></td>
+                    <td>AED</td>
+                    <td>AED</td>
+                    <td>AED</td>
+                    <td>AED</td>
+                    <td>AED</td>
+                    <td>AED</td>
+                </tr>
+            <tr>
+                <td style="text-align: left;">{ShopName}</td>
+                <td>{Orders}</td>
+                <td>{Online}</td>
+                <td>{Bank}</td>
+                <td>{Ad}</td>
+                <td>{IP}</td>
+                <td>{Comm}</td>
+                <td style="font-weight: bold;">{Amount}</td>
+            </tr>
+        </table>
+        <p>
+            Please also note that the funds have been transfered to your account.
+            <br><br>Free to let us know if you have any queries.
+        </p>
+    </body>
+</html>

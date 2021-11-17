@@ -1,0 +1,3 @@
+pandas
+numpy
+xlrd==1.2.0
